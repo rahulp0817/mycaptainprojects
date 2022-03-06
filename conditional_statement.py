@@ -11,7 +11,7 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 print(fibonacci(9))
 
-# To find positive and negative values 
+# To find positive values 
 
 list1 = [12, -7, 5, 64, -14]
 for i in list1:
