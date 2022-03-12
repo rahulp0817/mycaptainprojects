@@ -10,3 +10,5 @@ def most_frequent(string):
       d[i] = 1
    return d
 print(most_frequent('Mississippi'))
+for i in sorted(most_frequent("mississippi").values(),reverse=True):
+    print(i)
